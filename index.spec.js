@@ -10,7 +10,7 @@ var a = new Address({
 
 describe('free limited version', function(){
 	it('should work 20 times in a row', function(done){
-		this.timeout(30000);
+		this.timeout(6000);
 
 		var responseCount = 0,
 			responseHandler = function(err, exact, inexact){
